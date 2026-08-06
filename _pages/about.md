@@ -7,11 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-<p class="research-lede">I am interested in how machine learning systems can learn useful representations for reasoning, planning, and generalization.</p>
-
 I am an MSc student in Computational Neuroscience at the University of Tübingen. I am particularly interested in representation learning, causal abstraction, world models, and decision-making under uncertainty.
 
-During my master's, I have had the chance to work on Bayesian distributional reinforcement learning, Bayesian Monte Carlo tree search, hierarchical generative models, and causal abstraction. These projects are helping me understand which questions I would like to pursue further in a PhD.
+During my master’s, I have had the chance to work on Bayesian distributional reinforcement learning, hierarchical generative models, and causal abstraction. These projects are helping me understand which questions I would like to pursue further in a PhD.
 
 <div class="site-links">
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Research</a>
