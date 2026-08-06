@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Karim Zaghw"
 title_separator          : "-"
 name                     : &name "Karim Zaghw"
-description              : &description "Machine learning researcher working on uncertainty, representation learning, abstraction, and planning."
+description              : &description "MSc student interested in representation learning, causal abstraction, world models, and decision-making under uncertainty."
 url                      : "https://kzaghw.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/kzaghw"
@@ -26,7 +26,7 @@ author:
   avatar           : "karim-zaghw.png"
   name             : "Karim Zaghw"
   pronouns         : # example: "she/her"  
-  bio              : "MSc Computational Neuroscience | Machine Learning Research"
+  bio              : "MSc Student in Computational Neuroscience"
   location         : "Tübingen, Germany"
   employer         : "University of Tübingen"
   uri              :

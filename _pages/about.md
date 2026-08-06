@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-<p class="research-lede">I study how learning agents can represent uncertainty, discover useful structure, and build models that support planning and generalization.</p>
+<p class="research-lede">I am interested in how machine learning systems can learn useful representations for reasoning, planning, and generalization.</p>
 
-I am an MSc student in Computational Neuroscience at the University of Tübingen. My work sits at the intersection of reinforcement learning, Bayesian methods, and causal and hierarchical representation learning.
+I am an MSc student in Computational Neuroscience at the University of Tübingen. I am particularly interested in representation learning, causal abstraction, world models, and decision-making under uncertainty.
 
-My current research includes Bayesian distributional reinforcement learning for risk-aware exploration, Bayesian Monte Carlo tree search, and causal abstraction for learned representations. More broadly, I am interested in how agents move from high-dimensional observations to reusable representations of their environments: representations that expose the right structure for prediction, reasoning, and action.
+During my master's, I have had the chance to work on Bayesian distributional reinforcement learning, Bayesian Monte Carlo tree search, hierarchical generative models, and causal abstraction. These projects are helping me understand which questions I would like to pursue further in a PhD.
 
 <div class="site-links">
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Research</a>
@@ -19,13 +19,11 @@ My current research includes Bayesian distributional reinforcement learning for 
   <a class="btn btn--inverse" href="{{ '/files/Karim_Zaghw_CV.pdf' | relative_url }}">Download CV</a>
 </div>
 
-## Current Work
+## Current Activities
 
-**Bayesian reinforcement learning.** I develop methods that represent epistemic uncertainty over risk-relevant properties of return distributions and use that uncertainty to guide exploration and planning.
+**Student research assistant (HiWi), Max Planck Institute for Biological Cybernetics.** I am currently working on Bayesian approaches to reinforcement learning and Monte Carlo tree search, with an emphasis on representing epistemic uncertainty and using it during exploration and planning.
 
-**Representation and causal abstraction.** I study when learned, potentially overcomplete representations preserve high-level causal structure under reparameterization.
-
-**Hierarchical generative models.** I work on the mathematical and computational foundations of hierarchical inference, planning, and structure learning.
+**Lab rotation, Robust Machine Learning Group, ELLIS Institute Tübingen.** I am studying when overcomplete learned representations preserve high-level causal abstractions under changes of representation.
 
 ## Selected Publications
 
