@@ -15,8 +15,8 @@ My current research includes Bayesian distributional reinforcement learning for 
 
 <div class="site-links">
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Research</a>
-  <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
-  <a class="btn" href="{{ '/files/Karim_Zaghw_CV.pdf' | relative_url }}">Download CV</a>
+  <a class="btn btn--inverse" href="{{ '/publications/' | relative_url }}">Publications</a>
+  <a class="btn btn--inverse" href="{{ '/files/Karim_Zaghw_CV.pdf' | relative_url }}">Download CV</a>
 </div>
 
 ## Current Work
