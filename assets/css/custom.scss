@@ -85,31 +85,31 @@ a:focus {
 }
 
 .site-links .btn {
-  border: 1px solid var(--karim-rule);
+  border: 1px solid var(--karim-rule) !important;
   border-radius: 4px;
   background: transparent;
-  color: var(--karim-ink);
+  color: var(--karim-ink) !important;
   font-size: 0.82rem;
   font-weight: 600;
 }
 
 .site-links .btn:hover,
 .site-links .btn:focus {
-  border-color: var(--karim-accent);
+  border-color: var(--karim-accent) !important;
   background: #f3f7f7;
-  color: var(--karim-accent-dark);
+  color: var(--karim-accent-dark) !important;
 }
 
 .site-links .btn--primary {
-  border-color: var(--karim-accent);
+  border-color: var(--karim-accent) !important;
   background: var(--karim-accent);
-  color: #fff;
+  color: #fff !important;
 }
 
 .site-links .btn--primary:hover,
 .site-links .btn--primary:focus {
   background: var(--karim-accent-dark);
-  color: #fff;
+  color: #fff !important;
 }
 
 .publication-entry {
