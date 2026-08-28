@@ -34,9 +34,9 @@ redirect_from:
 
 ## Publications
 
-**Karim Zaghw**, Peter Dayan, Georgy Antonov. “Weight a Moment: Risk-Aware Exploration with Bayes.” Accepted at RLC 2026 / RLJ; camera-ready completed. [OpenReview](https://openreview.net/forum?id=DL3lTbg1Sm)
+**Karim Zaghw**, Peter Dayan, Georgy Antonov. “Weight a Moment: Risk-Aware Exploration with Bayes.” RLC 2026 / RLJ. [Paper](https://rlj.cs.umass.edu/2026/papers/Paper90.pdf)
 
-**Karim Zaghw**, Andrew Pashea, Marc Pritsch, Wouter Nuijten, Karl Friston, Lancelot Da Costa. “Renormalising Generative Models for Active Inference: Foundations, Derivations, and Verification.” Accepted at IWAI 2026; preprint forthcoming.
+**Karim Zaghw**, Andrew Pashea, Marc Pritsch, Wouter Nuijten, Karl Friston, Lancelot Da Costa. “Renormalising Generative Models for Active Inference: Foundations, Derivations, and Verification.” Accepted at IWAI 2026. [arXiv](https://arxiv.org/abs/2608.09512)
 
 H. Osman, **Karim Zaghw**, M. Hazem, S. Elsehely. “An Efficient Language-Independent Multi-Font OCR for Arabic Script.” DPPR 2020. [arXiv](https://arxiv.org/abs/2009.09115) · [Presentation](https://sites.google.com/view/dppr-2020)
 

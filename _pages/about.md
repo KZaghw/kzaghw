@@ -26,9 +26,9 @@ During my master’s, I have had the chance to work on Bayesian distributional r
 ## Selected Publications
 
 **Weight a Moment: Risk-Aware Exploration with Bayes**<br>
-Karim Zaghw, Peter Dayan, Georgy Antonov. Accepted at RLC 2026 / RLJ. [OpenReview](https://openreview.net/forum?id=DL3lTbg1Sm)
+Karim Zaghw, Peter Dayan, Georgy Antonov. RLC 2026 / RLJ. [Paper](https://rlj.cs.umass.edu/2026/papers/Paper90.pdf)
 
 **Renormalising Generative Models for Active Inference: Foundations, Derivations, and Verification**<br>
-Karim Zaghw, Andrew Pashea, Marc Pritsch, Wouter Nuijten, Karl Friston, Lancelot Da Costa. Accepted at IWAI 2026; preprint forthcoming.
+Karim Zaghw, Andrew Pashea, Marc Pritsch, Wouter Nuijten, Karl Friston, Lancelot Da Costa. Accepted at IWAI 2026. [arXiv](https://arxiv.org/abs/2608.09512)
 
 [View all publications]({{ '/publications/' | relative_url }})
