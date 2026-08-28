@@ -88,8 +88,6 @@ publication_category:
     title: 'Published'
   forthcoming:
     title: 'Accepted and Forthcoming'
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

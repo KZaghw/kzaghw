@@ -1,7 +1,7 @@
 ---
 title: "An Efficient Language-Independent Multi-Font OCR for Arabic Script"
 collection: publications
-category: conferences
+category: published
 permalink: /publication/arabic-script-ocr
 date: 2020-09-18
 authors: "H. Osman, Karim Zaghw, M. Hazem, S. Elsehely"
