@@ -9,7 +9,7 @@ My broad interest is how learning agents construct useful knowledge from raw exp
 
 ## Learning Through Interaction
 
-Many learning problems begin with variables, actions, or interventions already defined. I am especially interested in the earlier question of how a learner discovers which distinctions in its experience matter and what its actions manipulate or reveal. Interaction can provide evidence that passive observation cannot, while an incomplete model can guide the learner toward the next informative experiment. The representation, causal model, and experimental strategy should therefore develop together rather than forming a fixed one-way pipeline.
+Many learning problems begin with variables, actions, or interventions already defined. I am especially interested in the earlier question of how a learner discovers which distinctions in its experience matter and what its actions manipulate or reveal. Interaction can provide evidence that passive observation cannot, while an incomplete model can guide the learner toward the next informative experiment. I want to understand how representations, causal models, and experimental strategies can develop together, rather than treating them as stages of a fixed pipeline.
 
 ## Useful and Revisable Representations
 
