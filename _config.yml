@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Karim Zaghw"
 title_separator          : "-"
 name                     : &name "Karim Zaghw"
-description              : &description "MSc student interested in representation learning, causal abstraction, world models, and decision-making under uncertainty."
+description              : &description "MSc student interested in how learning agents discover useful representations and causal structure through interaction."
 url                      : "https://kzaghw.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/kzaghw"
@@ -83,12 +83,6 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  published:
-    title: 'Published'
-  forthcoming:
-    title: 'Accepted and Forthcoming'
-
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)

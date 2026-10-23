@@ -5,28 +5,20 @@ permalink: /research/
 author_profile: true
 ---
 
-My interests are centered on how machine learning systems discover useful structure from data and interaction. I would like to understand what makes a learned representation useful beyond its training examples: whether it preserves information needed for prediction and intervention, supports planning, and transfers to new tasks or environments. These interests are still developing, but several themes recur in the questions I find most compelling.
+My broad interest is how learning agents construct useful knowledge from raw experience. I would like to understand how an agent can use perception and action to discover concepts and causal structure, choose interactions that distinguish competing explanations, and revise its representation when new evidence or goals expose its limitations. I see this as a long-term direction connecting causal representation learning, decision-making, and active experimentation.
 
-## Representation and Abstraction
+## Learning Through Interaction
 
-I am interested in why some learned representations capture reusable structure while others rely on brittle shortcuts, and which assumptions or inductive biases are needed for useful structure to emerge. These assumptions might come from the data, architecture, learning objective, temporal structure, interaction, or access to interventions.
+Many learning problems begin with variables, actions, or interventions already defined. I am especially interested in the earlier question of how a learner discovers which distinctions in its experience matter and what its actions manipulate or reveal. Interaction can provide evidence that passive observation cannot, while an incomplete model can guide the learner toward the next informative experiment. The representation, causal model, and experimental strategy should therefore develop together rather than forming a fixed one-way pipeline.
 
-I am also interested in how agents can learn appropriate levels of abstraction. What can safely be ignored depends on the task, planning horizon, and environment. I would like to understand how agents can select among different levels of description and retain useful abstractions as tasks change. Ideas from compression may help explain this process, but compression can also discard variables that remain important for control or intervention.
+## Useful and Revisable Representations
 
-## Causality and Compositionality
+I am interested in representations that remain useful beyond their training distribution: representations that support intervention prediction, planning, transfer, and selective revision when part of a model fails. They need not reproduce a unique human-specified coordinate system or take the form of an interpretable causal graph. Identifiability is useful because it clarifies what can be recovered, under which assumptions, and up to which transformations.
 
-Causal representation learning interests me because causal structure may help models remain useful when environments change or familiar components are recombined. I would like to better understand when latent causal variables can be recovered, what forms of temporal structure or intervention make this possible, and whether agents can discover causal structure through their own actions.
+Abstraction is part of the same problem. The right level of detail depends on the learner's tasks and available interventions. A useful abstraction should preserve distinctions needed for action, reuse stable mechanisms, and be refined or reorganized when new evidence or goals make its current vocabulary insufficient.
 
-Related questions arise in compositional and object-centric learning. Rather than assuming one decomposition is always correct, I am interested in how a learner might discover which entities, mechanisms, or distinctions are useful for a domain and likely to remain useful under new tasks and interventions.
+## Uncertainty and Research Approach
 
-## World Models, Uncertainty, and Planning
+Uncertainty should help determine what evidence an agent collects. Bayesian methods are one useful tool for separating limited knowledge from environmental randomness and for prioritizing uncertainties that matter for decisions, but they are not the boundary of my interests.
 
-I am interested in world models that help an agent reason and act, rather than only predict the next observation. Ideally, such a model would capture stable and controllable aspects of an environment, represent uncertainty, and support planning at multiple scales.
-
-Interaction matters because an agent can choose what information to collect through exploration or intervention. Bayesian methods offer tools for separating uncertainty due to limited knowledge from randomness in the environment. My work on Bayesian reinforcement learning and Monte Carlo tree search has introduced me to these questions, although I see Bayesian methods as tools rather than the boundary of my interests.
-
-I am also interested in hierarchical reinforcement learning and temporal abstraction. I would like to understand how useful hierarchies can be learned, when they genuinely simplify planning, and how their value for control can be tested rather than assumed.
-
-## Research Approach
-
-The kind of work I enjoy combines a precise conceptual question with mathematical analysis and serious implementation. I value theory when it clarifies assumptions or expected behavior, and experiments when they test those ideas and reveal failure modes. Across these topics, the common thread for me is understanding how useful structure is learned and how it can help an agent reason, plan, and generalize.
+The work I enjoy combines a precise conceptual question with mathematical analysis and careful implementation. I value theory when it exposes assumptions or identifiability limits, and experiments when they distinguish explanations, test behavior under intervention or distribution change, and reveal where the proposed account fails.

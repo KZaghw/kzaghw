@@ -118,8 +118,11 @@ a:focus {
   border-bottom: 1px solid var(--karim-rule);
 }
 
-.publication-entry h3 {
+.page__content .publication-entry h2 {
   margin: 0 0 0.35rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-size: 1rem;
   line-height: 1.35;
 }
 

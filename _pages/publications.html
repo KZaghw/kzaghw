@@ -1,27 +1,22 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<p>Publications and accepted work are listed below. Citation records are also available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<p>Selected published work, accepted papers, and public preprints. A fuller publication record is available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-{% for category in site.publication_category %}
-  {% assign category_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
-  {% if category_posts.size > 0 %}
-    <h2>{{ category[1].title }}</h2>
-    {% for post in category_posts %}
-      <article class="publication-entry">
-        <h3>{{ post.title }}</h3>
-        <p class="publication-authors">{{ post.authors }}</p>
-        <p><strong>{{ post.status }}</strong>{% if post.venue %} · {{ post.venue }}{% endif %}</p>
-        {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
-        <p class="publication-links">
-          {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-          {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Presentation</a>{% endif %}
-        </p>
-      </article>
-    {% endfor %}
-  {% endif %}
+{% assign publication_posts = site.publications | sort: "date" | reverse %}
+{% for post in publication_posts %}
+  <article class="publication-entry">
+    <h2>{{ post.title }}</h2>
+    <p class="publication-authors">{{ post.authors }}</p>
+    <p><strong>{{ post.status }}</strong>{% if post.venue %} · {{ post.venue }}{% endif %}</p>
+    {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+    <p class="publication-links">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Presentation</a>{% endif %}
+    </p>
+  </article>
 {% endfor %}
