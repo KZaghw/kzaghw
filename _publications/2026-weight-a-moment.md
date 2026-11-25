@@ -7,7 +7,7 @@ date: 2026-08-01
 authors: "Karim Zaghw, Peter Dayan, Georgy Antonov"
 status: "Published"
 venue: "RLC 2026 / Reinforcement Learning Journal"
-paperurl: "https://rlj.cs.umass.edu/2026/papers/Paper90.pdf"
+paperurl: "https://rlj.org/papers/zaghw2026weight"
 excerpt: "A Bayesian distributional reinforcement-learning method that represents uncertainty over risk-relevant moments and uses it for principled exploration."
 ---
 
